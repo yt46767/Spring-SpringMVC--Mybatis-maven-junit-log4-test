@@ -3694,3 +3694,15 @@ Caused by: java.lang.IllegalArgumentException: Result Maps collection already co
 [INFO] [2016-01-19 13:14:49][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 [INFO] [2016-01-19 13:14:50][test.junit.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"测试"}
 [INFO] [2016-01-19 13:14:50][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3e9fd86: startup date [Tue Jan 19 13:14:48 CST 2016]; root of context hierarchy
+[INFO] [2016-01-19 13:56:51][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-01-19 13:56:51][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@3e9fd86: startup date [Tue Jan 19 13:56:51 CST 2016]; root of context hierarchy
+[INFO] [2016-01-19 13:56:51][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-01-19 13:56:51][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-01-19 13:56:52][test.junit.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"测试"}
+[INFO] [2016-01-19 13:56:52][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3e9fd86: startup date [Tue Jan 19 13:56:51 CST 2016]; root of context hierarchy
+[INFO] [2016-01-19 13:57:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-01-19 13:57:10][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@56d0a8c: startup date [Tue Jan 19 13:57:10 CST 2016]; root of context hierarchy
+[INFO] [2016-01-19 13:57:10][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2016-01-19 13:57:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-01-19 13:57:11][test.junit.TestMyBatis]{"age":25,"id":2,"password":"sfasgfaf","userName":"测试"}
+[INFO] [2016-01-19 13:57:11][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@56d0a8c: startup date [Tue Jan 19 13:57:10 CST 2016]; root of context hierarchy

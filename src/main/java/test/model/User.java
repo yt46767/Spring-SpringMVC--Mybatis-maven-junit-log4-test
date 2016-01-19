@@ -20,7 +20,6 @@ public class User {
         return id;
     }
     
-//    @Autowired
     public void setId(Integer id) {
         this.id = id;
     }
@@ -29,7 +28,6 @@ public class User {
         return userName;
     }
 
-//    @Autowired
     public void setUserName(String userName) {
         this.userName = userName == null ? null : userName.trim();
     }
@@ -38,7 +36,6 @@ public class User {
         return password;
     }
 
-//    @Autowired
     public void setPassword(String password) {
         this.password = password == null ? null : password.trim();
     }
@@ -47,7 +44,6 @@ public class User {
         return age;
     }
 
-//    @Autowired
     public void setAge(Integer age) {
         this.age = age;
     }
